@@ -5,4 +5,4 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse){
         var addColor = "#" + request.clickedColor;
         $('.api').css('color', addColor);
     }
-})
+});
